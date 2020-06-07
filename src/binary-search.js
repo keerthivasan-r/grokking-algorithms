@@ -1,4 +1,4 @@
-let input = [1,3,5,7,9,11,15,18];
+
 
 /**
  * Binary search function
@@ -20,6 +20,8 @@ function binarysearch(arr,item){
     return -1;
 }
 
+// let input = [1,3,5,7,9,11,15,18]; -- input array must be sorted
+// let index = binarysearch(input,7);
+// console.log('The element is found at ',index);
 
-let index = binarysearch(input,7);
-console.log('The element is found at ',index);
+module.exports = binarysearch;
